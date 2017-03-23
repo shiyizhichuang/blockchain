@@ -13,6 +13,8 @@ import org.web3j.protocol.parity.methods.response.PersonalListAccounts;
 import org.web3j.protocol.parity.methods.response.PersonalUnlockAccount;
 import org.web3j.tx.Contract;
 import org.web3j.tx.ManagedTransaction;
+import service.TestService;
+import service.implement.TestServiceImpl;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
@@ -65,5 +67,10 @@ public class HelloController extends Controller {
         }*/
         renderText("test");
 
+    }
+
+    public void test(){
+        TestService testService = new TestServiceImpl();
+        testService.test("");
     }
 }
