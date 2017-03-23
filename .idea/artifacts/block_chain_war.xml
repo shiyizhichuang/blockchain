@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="block-chain:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="block-chain.war">
+      <element id="artifact" artifact-name="block-chain:war exploded" />
+    </root>
+  </artifact>
+</component>
