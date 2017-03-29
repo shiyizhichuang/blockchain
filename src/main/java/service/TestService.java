@@ -5,4 +5,5 @@ package service;
  */
 public interface TestService{
     void test(String userid);
+
 }
